@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+@font-face{
+    font-family:roboto;
+    src:url(./fonts/Roboto-Regular.ttf)
+}
+@font-face{
+    font-family:Popins;
+    src:url(./fonts/Poppins-Regular.ttf)
+}
+@media only screen and  (max-width: 992px){
+    .tittle{
+        font-size: 22px !important;
+    }
+    .head-button{
+        background-color: #0b0e25 !important;
+    }
+    .nav_button{
+        background-color: #FAD961 !important;
+    }
+    .dropdown{
+        background-color: #1B1B1B !important;
+    }
+    .dropdown-item{
+        color: #FFFFFF !important;
+    }
+    h1{
+        font-size: 28px !important;
+        letter-spacing: 0px !important;
+        line-height: 50px !important; 
+    }
+    .cost{
+        font-size: 22px !important;
+    }
+    .cost-1{
+        font-size: 14px !important;
+    }
+    .Screens{
+        font-size: 14px !important;
+    }
+    .footer-block{
+        display: block !important;
+    }
+    .second{
+        display: block !important;
+    }
+    .TERMS{
+        color: #000000 !important;
+    }
+    .second{
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        padding-left: 0px !important;
+        }
+    .footer-cont{
+        position: relative !important;
+    }
+    .footer-block{
+        padding: 20px 15px 20px 15px !important;
+    }
+    .therd {
+        justify-content:left !important; 
+    }
+    .social-1 a > img{
+        filter: invert(0%) sepia(100%) saturate(7437%) hue-rotate(327deg) brightness(114%) contrast(114%) !important;    }
+    .social-2 a > img{
+        filter: invert(0%) sepia(100%) saturate(7437%) hue-rotate(327deg) brightness(114%) contrast(114%) !important;    }
+    .social-3 a > img{
+        filter: invert(0%) sepia(100%) saturate(7437%) hue-rotate(327deg) brightness(114%) contrast(114%) !important; 
+       }
+    .circles {
+        left:0px !important; 
+        top:-30px !important;
+     }
+}
+
+body{
+  overflow-x: hidden ;  
+}
+.bg-warning{
+    
+background-color: #FAD961 !important;
+}
+.tittle{
+    font-family:Popins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27.451px;
+    line-height: 27px;
+    color: #000000;
+}
+h1{
+    font-family:Popins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: -4px;
+    color: #1B1B1B;
+   
+}
+h3{
+    font-family:Popins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2px !important;
+    color: #000000;
+}
+.border-right{
+    border-right: 1px solid rgba(128, 128, 128, 0.295);
+    mix-blend-mode: normal;
+    padding-left:37px;
+    padding-right: 19px;
+    
+}
+.donwload-btn a {
+    text-decoration: none;
+    
+}
+.cost{
+    font-family:roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+    color: #1B1B1B;
+}
+.cost-1{
+    font-family:roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+.down-cont{
+    height: 60px;
+    border:2px solid #1B1B1B;
+    border-radius: 100px;
+    
+}
+
+h2{
+    font-family:Popins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #1B1B1B;
+}
+.Screens{
+    font-family:roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+.circles {
+   
+    top:-60px;
+}
+.CONTACT{
+    font-family:Popins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000000;
+    text-decoration: none;
+}
+.TERMS{
+    font-family:Popins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF ;
+    text-decoration: none;
+}
+.first  a{
+    font-family:Popins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-decoration: none;
+}
+.footer-cont{
+    bottom: 0px;
+}
+.footer-block{
+    padding: 20px 65px 20px 35px;
+}
+.social-1 a > img{
+    filter: invert(99%) sepia(0%) saturate(381%) hue-rotate(214deg) brightness(117%) contrast(100%);
+}
+.social-2 a > img{
+    filter: invert(99%) sepia(0%) saturate(381%) hue-rotate(214deg) brightness(117%) contrast(100%);
+}
+.social-3 a > img{
+    filter: invert(99%) sepia(0%) saturate(381%) hue-rotate(214deg) brightness(117%) contrast(100%);
+}
+.social-2{
+margin-left: 18px;
+margin-right: 20px;
+}
+.docs{
+margin-top: 88px;
+margin-right: 113px;
+}
